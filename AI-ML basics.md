@@ -1,5 +1,7 @@
+
 # 🤖 AI Roadmap
-'''text
+
+```
 AI
 │
 ├── Machine Learning
@@ -33,7 +35,7 @@ AI
     ├── Vectorization
     ├── Sequence Models
     └── Transformers
-'''
+```
 
 
 1. MACHINE LEARNING (ML)
