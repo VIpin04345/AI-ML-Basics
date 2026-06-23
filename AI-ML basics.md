@@ -1,3 +1,39 @@
+AI
+│
+├── Machine Learning
+│   ├── Data Preprocessing
+│   ├── Supervised Learning
+│   ├── Unsupervised Learning
+│   ├── Model Evaluation
+│   └── Advanced ML
+│
+├── Deep Learning
+│   ├── Neural Network Basics
+│   └── Architectures
+│       ├── ANN
+│       ├── CNN
+│       ├── RNN
+│       ├── LSTM
+│       ├── GRU
+│       └── Transformers
+│
+├── Generative AI
+│   ├── LLM
+│   ├── Prompt Engineering
+│   ├── Embeddings
+│   ├── Vector DB
+│   ├── RAG
+│   ├── Fine Tuning
+│   └── AI Agents
+│
+└── NLP
+    ├── Text Preprocessing
+    ├── Vectorization
+    ├── Sequence Models
+    └── Transformers
+
+
+
 1. MACHINE LEARNING (ML)
 1.1 DATA PREPROCESSING
 Missing Values
