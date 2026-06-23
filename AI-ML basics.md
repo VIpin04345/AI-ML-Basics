@@ -165,3 +165,211 @@ Definition: Categorical data ko efficiently handle karta hai.
 Example: Customer names, cities, categories wale data par.
 
 MACHINE LEARNING COMPLETE ✅
+
+
+
+
+
+2. DEEP LEARNING (DL)
+Definition
+
+Deep Learning Machine Learning ka advanced part hai jo Artificial Neural Networks (ANN) ka use karke complex patterns seekhta hai.
+
+Example
+
+Maan le tum kisi bacche ko billi aur kutte ki photo dikhate ho. ML me hum features (kaan, poonch, size) bata sakte hain. DL me model khud photo dekhkar ye features seekh leta hai.
+
+2.1 NEURAL NETWORK (NN) BASICS
+Perceptron
+
+Definition: Neural Network ka sabse basic neuron jo input lekar decision deta hai.
+
+Example
+
+Agar placement ke liye rule ho:
+
+CGPA > 7
+Communication achhi ho
+
+To perceptron dono inputs dekhkar decide karega select karna hai ya nahi.
+
+Activation Function
+
+Definition: Neuron ko decide karne me help karta hai ki output dena hai ya nahi.
+
+Example
+
+Jaise teacher answer sheet check karke decide karta hai pass ya fail.
+
+Forward Propagation
+
+Definition: Input se output tak data ka flow.
+
+Example
+
+Photo → Neural Network → Prediction "Dog"
+
+Backpropagation
+
+Definition: Error ko piche bhejkar weights improve karna.
+
+Example
+
+Model ne Cat ko Dog bol diya. Error calculate hua aur model apni galti sudharne laga.
+
+2.2 DEEP LEARNING ARCHITECTURES
+ANN (Artificial Neural Network)
+
+Definition: Multiple neurons aur layers se bana neural network.
+
+Example
+
+Student ke marks, attendance aur assignments dekar predict karna ki pass hoga ya fail.
+
+CNN (Convolutional Neural Network)
+
+Definition: Images process karne ke liye specially design kiya gaya network.
+
+Example
+
+Face Recognition.
+
+Mobile unlock karte waqt camera tumhara face identify karta hai.
+
+RNN (Recurrent Neural Network)
+
+Definition: Previous information ko yaad rakhkar prediction karta hai.
+
+Example
+
+Sentence me next word predict karna.
+
+"I love eating ____"
+
+Model previous words dekhkar "pizza" ya "mango" predict kar sakta hai.
+
+LSTM (Long Short Term Memory)
+
+Definition: Long-term information ko yaad rakhne wala improved RNN.
+
+Example
+
+Movie review:
+
+"Starting boring thi lekin ending bahut achhi thi."
+
+Model ending tak pahunchkar starting ka context nahi bhoolta.
+
+GRU (Gated Recurrent Unit)
+
+Definition: LSTM ka lightweight aur faster version.
+
+Example
+
+Chatbots me conversation context maintain karna.
+
+Transformers
+
+Definition: Modern architecture jo poore sentence ko ek saath dekh sakta hai.
+
+Example
+
+ChatGPT.
+
+Tum poora question likhte ho aur model ek saath pura context samajhta hai.
+
+DEEP LEARNING COMPLETE ✅
+3. GENERATIVE AI (GenAI)
+Definition
+
+Generative AI naye content (Text, Image, Audio, Video, Code) generate karta hai.
+
+Example
+
+Tum ChatGPT ko likho:
+
+"Ek love letter likho"
+
+Model pehle se stored letter nahi deta, balki naya generate karta hai.
+
+LLM (Large Language Model)
+
+Definition: Bahut bade text data par trained model jo human-like text generate karta hai.
+
+Example
+
+ChatGPT se pucho:
+
+"Python kya hai?"
+
+Wo training se seekhe gaye knowledge ke basis par answer generate karega.
+
+Prompt Engineering
+
+Definition: LLM ko better instructions dene ki technique.
+
+Example
+
+Prompt 1:
+"Resume banao"
+
+Prompt 2:
+"Python Fresher ke liye ATS-friendly resume banao"
+
+Dusre prompt ka output zyada achha hoga.
+
+Embeddings
+
+Definition: Text ko numbers (vectors) me convert karna taki machine meaning samajh sake.
+
+Example
+
+"King" aur "Queen" ke vectors paas honge.
+
+"King" aur "Laptop" ke vectors door honge.
+
+Vector Database
+
+Definition: Embeddings ko store karne wala database.
+
+Example
+
+Company ke 50,000 documents ke embeddings store karna.
+
+RAG (Retrieval Augmented Generation)
+
+Definition: LLM ko external knowledge dekar answer improve karna.
+
+Example
+
+Company ke PDF documents ChatGPT ko de diye.
+
+Employee puche:
+
+"Leave policy kya hai?"
+
+Model PDF se data retrieve karke answer dega.
+
+Fine Tuning
+
+Definition: Existing LLM ko specific domain ke liye train karna.
+
+Example
+
+Medical chatbot ko sirf medical data par train karna.
+
+AI Agents
+
+Definition: AI jo khud plan bana kar multiple actions perform kar sake.
+
+Example
+
+"Mumbai se Goa trip plan karo"
+
+Agent:
+
+Hotels search karega
+Flights check karega
+Itinerary banayega
+Budget calculate karega
+GENERATIVE AI COMPLETE ✅
