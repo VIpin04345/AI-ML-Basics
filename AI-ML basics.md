@@ -373,3 +373,256 @@ Flights check karega
 Itinerary banayega
 Budget calculate karega
 GENERATIVE AI COMPLETE ✅
+
+
+
+
+4. NLP (Natural Language Processing)
+Definition
+
+NLP AI ki woh branch hai jo human language (Hindi, English, etc.) ko samajhne, process karne aur generate karne ka kaam karti hai.
+
+Example
+
+Jab tum ChatGPT se puchte ho:
+
+"Mujhe Python sikhao"
+
+to model tumhare sentence ko samajhta hai aur jawab deta hai. Ye NLP hai.
+
+4.1 TEXT PREPROCESSING
+Definition
+
+Raw text ko clean aur machine-friendly banane ki process.
+
+Example
+
+Input:
+
+"I am Learning Python!!!"
+
+Clean karke:
+
+"learning python"
+
+Tokenization
+
+Definition: Sentence ko chhote parts (tokens/words) me todna.
+
+Example
+
+Sentence:
+
+"I love cricket"
+
+Tokens:
+
+["I", "love", "cricket"]
+
+Jaise ek paragraph ko words me tod dena.
+
+Stemming
+
+Definition: Word ka root form nikalna by cutting suffixes.
+
+Example
+
+Playing → Play
+
+Working → Work
+
+Swimming → Swim
+
+Kabhi-kabhi galat root bhi ban sakta hai.
+
+Lemmatization
+
+Definition: Word ka dictionary wala actual root form nikalna.
+
+Example
+
+Better → Good
+
+Running → Run
+
+Went → Go
+
+Ye stemming se zyada accurate hota hai.
+
+Stop Words Removal
+
+Definition: Common words remove karna jo meaning me zyada contribution nahi dete.
+
+Example
+
+Sentence:
+
+"I am going to school"
+
+Remove:
+
+am, to
+
+Result:
+
+"going school"
+
+4.2 VECTORIZATION
+Definition
+
+Text ko numbers me convert karna taki machine samajh sake.
+
+Example
+
+Human:
+
+"I love Python"
+
+Machine:
+
+[0.12, 0.84, 0.34 ...]
+
+Bag of Words (BoW)
+
+Definition: Har word kitni baar aaya uska count rakhta hai.
+
+Example
+
+Sentence 1:
+
+"I love cricket"
+
+Sentence 2:
+
+"I love football"
+
+Vocabulary:
+
+[I, love, cricket, football]
+
+Sentence 1:
+
+[1,1,1,0]
+
+Sentence 2:
+
+[1,1,0,1]
+
+TF-IDF
+
+Definition: Important words ko zyada importance deta hai.
+
+Example
+
+Agar 1000 documents me "the" har jagah hai aur "Python" sirf 20 documents me hai.
+
+To model "Python" ko zyada important maanega.
+
+Word2Vec
+
+Definition: Similar meaning wale words ko similar vectors deta hai.
+
+Example
+
+King ↔ Queen
+
+Doctor ↔ Nurse
+
+Vectors ek dusre ke paas honge.
+
+GloVe
+
+Definition: Context aur co-occurrence use karke word embeddings banata hai.
+
+Example
+
+Paris aur France ka relation seekh sakta hai.
+
+Delhi aur India ka relation bhi seekh sakta hai.
+
+4.3 SEQUENCE MODELS
+Definition
+
+Sequence data (sentence, speech, time series) ko process karne wale models.
+
+Example
+
+Sentence:
+
+"I love eating mango"
+
+Word order important hai.
+
+RNN
+
+Definition: Previous words ko yaad rakhkar next prediction karta hai.
+
+Example
+
+"I am going to ____"
+
+Model predict karega:
+
+school
+
+LSTM
+
+Definition: Long-term memory wala RNN.
+
+Example
+
+Story ke starting ka context ending tak yaad rakh sakta hai.
+
+4.4 TRANSFORMERS (PRETRAINED MODELS)
+Definition
+
+Modern NLP architecture jo poore sentence ko ek saath samajhta hai.
+
+Example
+
+ChatGPT, Gemini, Claude sab Transformers family se aaye hain.
+
+BERT
+
+Definition: Context samajhne ke liye dono side (left + right) dekhta hai.
+
+Example
+
+Sentence:
+
+"Bank of river"
+
+aur
+
+"Bank account"
+
+BERT samajh lega ki dono me "bank" ka meaning alag hai.
+
+GPT
+
+Definition: Next word predict karke text generate karta hai.
+
+Example
+
+Prompt:
+
+"Ek sher jungle me gaya..."
+
+GPT aage poori kahani bana sakta hai.
+
+T5
+
+Definition: Har NLP task ko text-to-text problem bana deta hai.
+
+Example
+
+Input:
+
+Translate English to Hindi:
+Hello
+
+Output:
+
+नमस्ते
+
+NLP COMPLETE ✅
